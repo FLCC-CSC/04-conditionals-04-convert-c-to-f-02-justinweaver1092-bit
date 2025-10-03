@@ -16,8 +16,8 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 print('===== Temperature Converter =====')
 print()
-print(' 1. Convert from Celsius to Fahrenheit')
-print(' 2. Convert from Fahrenheit to Celsius')
+print('  1. Convert from Celsius to Fahrenheit')
+print('  2. Convert from Fahrenheit to Celsius')
 print()
 convert = input('Please choose from the above menu: ')
 temp = float(input('Enter a temperature to convert: '))
