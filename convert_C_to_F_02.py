@@ -25,11 +25,11 @@ print()
 if (convert=='1'):
   
     fahrenheit = (temp * 9/5) + 32
-    print  (f'{temp} degrees Celsius is {fahrenheit} degrees Fahrenheit.')
+    print  (f'{temp:.1f} degrees Celsius is {fahrenheit:.1f} degrees Fahrenheit.')
 else:
 
     celsius = (temp - 32 ) * 5/9
-    print  (f'{temp} degrees Fahrenheit is {celsius} degrees Celsius.')
+    print  (f'{temp:.1f} degrees Fahrenheit is {celsius:.1f} degrees Celsius.')
 
 
 
