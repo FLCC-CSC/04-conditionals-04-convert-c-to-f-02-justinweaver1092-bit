@@ -19,7 +19,7 @@ print()
 print(' 1. Convert from Celsius to Fahrenheit')
 print(' 2. Convert from Fahrenheit to Celsius')
 convert = input('Please choose from the above menu: ')
-temp = float(input('enter a temperature to convert: '))
+temp = float(input('Enter a temperature to convert: '))
 if (convert=='1'):
   
     fahrenheit = (temp * 9/5) + 32
