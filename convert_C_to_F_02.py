@@ -14,7 +14,20 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+print('===== Temperature Converter =====')
+print()
+print(' 1. Convert from Celsius to Fahrenheit')
+print(' 2. Convert from Fahrenheit to Celsius')
+convert = input('Please choose from the above menu: ')
+temp = float(input('enter a temperature to convert: '))
+if (convert=='1'):
+  
+    fahrenheit = (temp * 9/5) + 32
+    print  (f'{temp} degrees Celsius is {fahrenheit} degrees Fahrenheit.')
+else:
 
+    celsius = (temp - 32 ) * 5/9
+    print  (f'{temp} degrees Fahrenheit is {celsius} degrees Celsius.')
 
 
 
