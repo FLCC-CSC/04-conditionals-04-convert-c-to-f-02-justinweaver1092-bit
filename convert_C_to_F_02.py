@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Justin Weaver  
+# DATE: 10/2/25
+# BRIEF DESCRIPTION:   C_F_converter2
 
 
 
@@ -107,7 +107,10 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
+Again the code itself wasn't horrible to do. I built it out line for lne and that part was pretty straight forward.
+But I ran this like 10 times trying to get it too pass and it kept failing. At first I thought it was bc i missed a blank line here or there and I did.
+But what ultimatley made it keep failing was the 2 spaces before the 1 and 2 options and I had one space. Its always these little things that trip me up.
+I write a perfect code that does exactly what its suppose to but always fails due to some missed space or something small and ultimatley inconsequential to the actually code running or working. 
 
 
 
